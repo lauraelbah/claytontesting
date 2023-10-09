@@ -1,6 +1,6 @@
 @isTest
 private class TestRejectDoubleBooking {
-    static testmethod void TestSingleBooking() {
+    @IsTest static void TestSingleBooking() {
         Datetime now = System.now();
         Speaker__c speaker = new Speaker__c(First_Name__c='John', Last_Name__c='Smith');
         insert speaker;
@@ -12,7 +12,7 @@ private class TestRejectDoubleBooking {
         System.assert(result.isSuccess());
     }
     
-    static testmethod void TestDoubleBooking() {
+    @IsTest static void TestDoubleBooking() {
     Datetime now = System.now();
     Speaker__c speaker = new Speaker__c(First_Name__c='John', Last_Name__c='Smith');
     insert speaker;

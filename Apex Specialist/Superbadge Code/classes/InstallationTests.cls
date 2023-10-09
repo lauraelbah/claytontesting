@@ -6,10 +6,10 @@
 
 @IsTest
 private class InstallationTests {
-    static testmethod void testMaintenanceRequest() {
+    @IsTest static void testMaintenanceRequest() {
         MaintenanceRequestHelper.updateWorkOrders();
     }
-    static testmethod void testWarehouseSync() {
+    @IsTest static void testWarehouseSync() {
         WarehouseCalloutService.runWarehouseEquipmentSync();
     }    
 }
