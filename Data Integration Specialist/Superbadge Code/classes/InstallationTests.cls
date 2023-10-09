@@ -27,7 +27,7 @@ private class InstallationTests {
     }
 
     //Test empty trigger stub
-    static testmethod void testProjectTrigger() {
+    @IsTest static void testProjectTrigger() {
         Opportunity opp = [SELECT Id FROM Opportunity LIMIT 1];
         Project__c p = new Project__c();
         p.Opportunity__c = opp.Id;
@@ -35,7 +35,7 @@ private class InstallationTests {
     }
     
     //Test empty service stub
-	static testmethod void testProjectCalloutServiceForInstall() {
+	@IsTest static void testProjectCalloutServiceForInstall() {
 	    ProjectCalloutService.postOpportunityToPMS();
 	}
 
