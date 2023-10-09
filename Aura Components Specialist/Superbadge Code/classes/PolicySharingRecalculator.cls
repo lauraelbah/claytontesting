@@ -1,4 +1,4 @@
-public class PolicySharingRecalculator implements Database.Batchable<sObject> {
+public inherited sharing class PolicySharingRecalculator implements Database.Batchable<sObject> {
     public Database.QueryLocator start (Database.BatchableContext bc) {
         return Database.getQueryLocator([SELECT Id FROM Policy__c]); // Create the QueryLocator for the execute method to reference
     }

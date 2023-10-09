@@ -1,4 +1,4 @@
-public class MaintenanceRequestHelper {
+public inherited sharing class MaintenanceRequestHelper {
     /*
      * calculate and set the next due date using the maintenance cycle defined on the related work part records. If multiple work parts are used in the maintenance request, 
      * choose the shortest maintenance cycle to define the service date.*/

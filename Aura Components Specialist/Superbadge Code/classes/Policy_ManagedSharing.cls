@@ -1,4 +1,4 @@
-public class Policy_ManagedSharing {
+public inherited sharing class Policy_ManagedSharing {
     public static void addNewPolicyShareRule(ID recordId, ID userOrGroup, String accessLevel){
         Policy__Share policySharingRule = new Policy__Share();
         policySharingRule.ParentId = recordId;
