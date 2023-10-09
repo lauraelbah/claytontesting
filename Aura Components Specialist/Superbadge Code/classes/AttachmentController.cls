@@ -1,4 +1,4 @@
-public class AttachmentController {
+public inherited sharing class AttachmentController {
     @AuraEnabled
     public static void updatePicturePath(String recId){
         //In Lightning Experience, Attachments are stored in ContentDocuments

@@ -1,4 +1,4 @@
-public class BillingCalloutService {
+public inherited sharing class BillingCalloutService {
     //Implement business and callout logic methods here
     @future(callout=true)
     public static void callBillingService(String projectRef, Decimal billableAmount) {

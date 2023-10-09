@@ -1,4 +1,4 @@
-public class GenerateData {
+public inherited sharing class GenerateData {
     
     public static void initData() {
         removeOldData();

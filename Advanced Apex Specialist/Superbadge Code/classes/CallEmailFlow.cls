@@ -1,4 +1,4 @@
-public class CallEmailFlow {
+public inherited sharing class CallEmailFlow {
     public static List<Object> doAutoFlow(String flowName){
         Map<String, List<Object>> flowVars = new Map<String, List<Object>>();
         List<Opportunity> oppList = [SELECT Id, AccountId, Amount, OwnerId FROM Opportunity WHERE Amount >= 1000000];

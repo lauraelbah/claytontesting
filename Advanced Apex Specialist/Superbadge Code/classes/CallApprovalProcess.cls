@@ -1,4 +1,4 @@
-public class CallApprovalProcess {
+public inherited sharing class CallApprovalProcess {
     static Integer testOppNameCount = 0;
     public static void callApprovalProcess(){
         //Opportunity opp = [SELECT Id, Name, Account.Name, Amount FROM Opportunity WHERE Id = '0062E00001Ew5WxQAJ'];

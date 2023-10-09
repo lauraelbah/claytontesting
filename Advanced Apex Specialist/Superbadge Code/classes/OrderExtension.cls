@@ -2,7 +2,7 @@
 * @name OrderExtension
 * @description This class is provided for you to facilitate the Super Badge
 **/
-public class OrderExtension {
+public inherited sharing class OrderExtension {
     
     public Order orderRecord {get; set;}
     public List<OrderItem> orderItemList {get; set;}
